@@ -1,0 +1,7 @@
+---
+- hosts: serv03
+  roles:
+    - webserver
+    - db
+    - joomla
+
